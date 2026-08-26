@@ -1,5 +1,7 @@
 thuc\ute\services\IUserService.class
 thuc\ute\utils\DBConnection.class
+thuc\ute\controller\admin\CategoryEditController.class
+thuc\ute\controller\admin\CategoryListController.class
 thuc\ute\controller\LogoutController.class
 thuc\ute\dao\impl\UserDaoImpl.class
 thuc\ute\dao\impl\CategoryDaoImpl.class
@@ -14,6 +16,9 @@ thuc\ute\dao\IUserDao.class
 thuc\ute\controller\HomeController.class
 thuc\ute\dao\ICategoryDao.class
 thuc\ute\services\impl\CategoryServiceImpl.class
+thuc\ute\controller\DownloadImageController.class
 thuc\ute\services\impl\UserServiceImpl.class
 thuc\ute\models\UserModel.class
 thuc\ute\utils\DBConnectionMySQL.class
+thuc\ute\controller\admin\CategoryAddController.class
+thuc\ute\controller\admin\CategoryDeleteController.class
