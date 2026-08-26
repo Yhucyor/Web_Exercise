@@ -13,7 +13,7 @@ public class CloudinaryUtil {
 
 		Map<String, String> config = new HashMap<>();
 
-		config.put("gnht4fer", "YOUR_CLOUD_NAME");
+		config.put("cloud_name", "gnht4fer");
 		config.put("api_key", "997495484919781");
 		config.put("api_secret", "Z6y76Ybd8vwWrOiOzbMXrnH_JOs");
 

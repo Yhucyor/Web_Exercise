@@ -19,6 +19,7 @@ D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\services\ICategoryService
 D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\services\impl\CategoryServiceImpl.java
 D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\services\impl\UserServiceImpl.java
 D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\services\IUserService.java
+D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\utils\CloudinaryUtil.java
 D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\utils\Constant.java
 D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\utils\DBConnection.java
 D:\App\SpringBoot\LoginExercise\src\main\java\thuc\ute\utils\DBConnectionMySQL.java

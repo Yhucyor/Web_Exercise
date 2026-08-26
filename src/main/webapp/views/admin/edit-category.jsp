@@ -38,18 +38,8 @@
 
 		<c:if test="${category.images != null && category.images != ''}">
 
-			<c:url
-				value="/image"
-				var="imgUrl">
-
-				<c:param
-					name="fname"
-					value="${category.images}" />
-
-			</c:url>
-
 			<img
-				src="${imgUrl}"
+				src="${category.images}"
 				width="120"
 				height="120"
 				alt="Category Image">

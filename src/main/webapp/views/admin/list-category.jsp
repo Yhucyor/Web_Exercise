@@ -123,18 +123,8 @@
 
 						<c:if test="${cate.images != null && cate.images != ''}">
 
-							<c:url
-								value="/image"
-								var="imgUrl">
-
-								<c:param
-									name="fname"
-									value="${cate.images}" />
-
-							</c:url>
-
 							<img
-								src="${imgUrl}"
+								src="${cate.images}"
 								alt="Category Image">
 
 						</c:if>
