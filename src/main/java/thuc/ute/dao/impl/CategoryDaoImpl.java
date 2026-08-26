@@ -15,7 +15,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 	@Override
 	public void insert(CategoryModel category) {
 
-		String sql = "INSERT INTO Category(categoryname, images, status) VALUES (?, ?, ?)";
+		String sql = "INSERT INTO Categories(categoryname, images, status) VALUES (?, ?, ?)";
 
 		try {
 
@@ -37,7 +37,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 	@Override
 	public void edit(CategoryModel category) {
 
-		String sql = "UPDATE Category "
+		String sql = "UPDATE Categories "
 				+ "SET categoryname = ?, images = ?, status = ? "
 				+ "WHERE categoryid = ?";
 
@@ -62,7 +62,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 	@Override
 	public void delete(int id) {
 
-		String sql = "DELETE FROM Category WHERE categoryid = ?";
+		String sql = "DELETE FROM Categories WHERE categoryid = ?";
 
 		try {
 
@@ -82,7 +82,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 	@Override
 	public CategoryModel get(int id) {
 
-		String sql = "SELECT * FROM Category WHERE categoryid = ?";
+		String sql = "SELECT * FROM Categories WHERE categoryid = ?";
 
 		try {
 
@@ -116,7 +116,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 	@Override
 	public CategoryModel get(String name) {
 
-		String sql = "SELECT * FROM Category WHERE categoryname = ?";
+		String sql = "SELECT * FROM Categories WHERE categoryname = ?";
 
 		try {
 
@@ -152,7 +152,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 
 		List<CategoryModel> categories = new ArrayList<CategoryModel>();
 
-		String sql = "SELECT * FROM Category";
+		String sql = "SELECT * FROM Categories";
 
 		try {
 
@@ -186,7 +186,7 @@ public class CategoryDaoImpl extends DBConnection implements ICategoryDao {
 
 		List<CategoryModel> categories = new ArrayList<CategoryModel>();
 
-		String sql = "SELECT * FROM Category WHERE categoryname LIKE ?";
+		String sql = "SELECT * FROM Categories WHERE categoryname LIKE ?";
 
 		try {
 
